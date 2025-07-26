@@ -7,9 +7,20 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+
+  <!-- Profile section moved to top -->
+  <section class="profile">
+    <img src="profile.jpg" alt="Profile Photo" class="profile-pic"/>
+    <div>
+      <h2>PRABHUKUMAR GR</h2>
+      <p><strong>Senior Branch Manager | Loan Processing Expert</strong></p>
+      <p><strong>Languages:</strong> English, Kannada, Hindi</p>
+    </div>
+  </section>
+
+  <!-- Header now comes below profile -->
   <header>
-    <h1>PRABHUKUMAR GR</h1>
-    <p>Senior Branch Manager | Loan Processing Expert</p>
+    <h1>Welcome to My Portfolio</h1>
     <nav>
       <button onclick="showPage('about')">About</button>
       <button onclick="showPage('education')">Education</button>
@@ -20,15 +31,6 @@
   </header>
 
   <main>
-    <!-- Always visible -->
-    <section class="profile">
-      <img src="profile.jpg" alt="Profile Photo" class="profile-pic"/>
-      <div>
-        <h2>PRABHUKUMAR GR</h2>
-        <p><strong>Languages:</strong> English, Kannada, Hindi</p>
-      </div>
-    </section>
-
     <!-- Dynamic Sections -->
     <section id="about" class="page-section">
       <h3>About Me</h3>
@@ -71,7 +73,7 @@
 
     <section id="contact" class="page-section">
       <h3>Contact</h3>
-      <p><strong>Email:</strong> <a href="mailto:prabhukumar883@gmail.com">prabhukumar883@gmail.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:Prabhukumar883@gmail.com">Prabhukumar883@gmail.com</a></p>
       <p><strong>Phone:</strong> +91 9008943168</p>
       <p><strong>Location:</strong> Bangalore, Karnataka</p>
       <p><strong>Permanent Address:</strong> #04, Kenchenahalli, Arkere Post, Arsikere, Hassan - 573112</p>
